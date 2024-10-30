@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gabriel CV</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CV for Gabriel Diskay">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Gabriel';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Gabriel</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Gabriel</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>Who am I?<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I'm a 24 year old 5:th year Industrial Engineering student at KTH. Just having finished my exchange semester at SMU in Singapore. I'm looking for a master thesis opportunity for spring 2025 within the fields of Machine Learning or Industrial Engineering
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>October 2022--December 2023}</li>
+				<li><a href="#">Fastdev AB</a></li>
+				<li>Sales department</li>
+			</ul>
+			<ul class="work-list">
+				<li>October 2022--June 2023</li>
+				<li><a href="#">Matilda</a></li>
+				<li>Sales department</li>
+			</ul>
+			<ul class="work-list">
+				<li>October 2014--November 2022</li>
+				<li><a href="#">Mudo AB</a></li>
+				<li>Instructor</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Education<br></h1>
+			<ul class="award-list list-flat">
+				<li>2020--2025</li>
+				<li>Master of Science in Engineering - Industrial Engineering and Management</li>
+				<li>Royal Institute of Technology (KTH)</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>Spring 2024</li>
+				<li>Exchange Semester</li>
+				<li>Singapore Management University</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Other Merits -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Other<br>Merits</h1>
+			<ul class="skill-list list-flat">
+				<li>President of the Communications Committee, Chapter of Industrial Engineering, KTH</li>
+				<li>The communications committee is responsible for the chapter's channels of communication, including social media and the chapter website. As president I led a large group of people and structured a one-year plan for the committee. This plan involved both a vision and a business plan to realize and follow up. This gave me experience in leadership and planning.</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Local Responsible for Local Group Stockholm, Chapter of Industrial Engineering, KTH and European Students of Industrial Engineering and Management </li>
+				<li>Local Responsible (LR) for Local Group (LG) Stockholm within the network organization ESTIEM. In this position I worked with connecting LG Stockholm to other IEM Universities in Europe by attending international meetings on site as a delegate.</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Code Languages</li>
+				<li>Python / R / Java / HTML / React / Typescript / CSS</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Innovation -> Implementation</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Contacts</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:gabriel@diskay.com"><i class="fa fa-send"></i></a></li>
+                        <li><a href="www.linkedin.com/in/gabriel-diskay-707aa0206"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["far northern sky", "your galaxy", "everywhere"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
